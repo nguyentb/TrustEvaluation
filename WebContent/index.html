@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="US-ASCII">
+<title>Trust Evaluation Demonstration</title>
+</head>
+<body>
+ 
+<form action="LoginServlet" method="post">
+Username: <input type="text" name="user">
+<br>
+Password: <input type="password" name="pwd">
+<br>
+<input type="submit" value="Login">
+</form>
+
+<h2> Trust Evaluation Demonstration </h2>
+
+<form action="TrustProcess" method="post">
+	
+	<INPUT TYPE="Radio" Name="r_option" Value="trust" Checked> Overall Trust Level Reasoning
+	<INPUT TYPE="Radio" Name="r_option" Value="knowledge"> Knowledge TM Reasoning
+	<INPUT TYPE="Radio" Name="r_option" Value="reputation"> Reputation TM Reasoning
+	<INPUT TYPE="Radio" Name="r_option" Value="recommendation"> Recommendation TM Reasoning
+	<INPUT TYPE="submit" value="Submit">
+	
+</form>
+
+</body>
+</html>

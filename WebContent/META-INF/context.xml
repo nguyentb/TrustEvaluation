@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+   <Resource name="jdbc/SampleDB" auth="Container"
+       type="javax.sql.DataSource" 
+       username="root" password="nguyentb123"
+       driverClassName="com.mysql.jdbc.Driver"
+       url="jdbc:mysql://localhost:3306/trustevaluation" 
+       maxActive="64"
+   /> 
+</Context>
